@@ -182,7 +182,7 @@ input{
 
 #intro-SoundStash{
 
-	position:relative;
+	/*position:relative;
 	background-image: url("images/djparty.jpg");
 	background-size: cover;
 	background-position:center center;
@@ -192,7 +192,15 @@ input{
 	height:400px;
 	top:0;
 	right: 0;
-	left: 0;
+	left: 0;*/
+	display: inline-block;
+	position: relative;
+}
+
+#intro-SoundStash img{
+	position: absolute;
+	top:0;
+	left:0;
 }
 
 
