@@ -181,7 +181,7 @@ input{
 
 	position:relative;
 
-	background-image: "images/djparty.jpg";
+	background-image: url('.../images/djparty.jpg');
 	background-size: cover;
 	background-position:center;
 	background-repeat: no-repeat;
