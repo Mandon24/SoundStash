@@ -12,7 +12,7 @@ body{
 	height: 100%;
 	width: 100%;
 
-	margin: auto;
+	margin: 0 0 100px;;
 }
 
 .charts:hover{
@@ -215,10 +215,12 @@ input{
 .foot{
 	position: absolute;
 	bottom: 0;
+	left:0;
 	width: 100%;
 	padding: 3rem;
 	background-color: rgba(0,0,0,0.6);
 	text-align: center;
+	height: 100px;
 }
 
 .container{
@@ -249,7 +251,7 @@ li{
 
 .wrap{
    	height: auto;
-    /*margin: 0 auto -8px; /* footer height + space */
+    margin: 0; /* footer height + space */
     min-height: 100%;
     padding: 0 0 80px; /* footer height + space */
     box-sizing: border-box;
