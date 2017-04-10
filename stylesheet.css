@@ -12,7 +12,7 @@ body{
 .charts:hover{
 	color: #b8b8b8;
 	text-decoration: none;
-	
+
 }
 .charts{
 	text-decoration: none;
@@ -22,7 +22,7 @@ body{
 .topAlbumResults{
 	display: block;
 	position: relative;
-	
+
 }
 
 .results{
@@ -38,7 +38,7 @@ thead{
 	background-color:rgba(0,0,0,0.4);
 	position: relative;
 	margin: auto;
-	
+
 }
 
 tbody{
@@ -99,36 +99,36 @@ p{
 	color: white;
 	font-family: 'Lato';
 	text-align: center;
-	
+
 }
 
 #inputBox{
-	background-color:rgba(0,0,0,0.4); 
-	padding-top:15px; 
+	background-color:rgba(0,0,0,0.4);
+	padding-top:15px;
 	padding-bottom:10px;
 	margin-bottom: 10px;
 	border-radius: 20px;
-	
+
 
 }
 
-form { 
+form {
 	margin-top: 20px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	width: 100%;
-	
-	
+
+
 }
 
 
 input[type=text]{
 	border-radius:10px;
-	
+
 
 }
 
-#search{ 
+#search{
 	margin: auto;
 	text-align: center;
 	color: black;
@@ -146,19 +146,19 @@ input[type=text]{
 	color: black;
 }
 
-form, #results { 
-	padding: 0 20px; 
+form, #results {
+	padding: 0 20px;
 }
 
 input{
 	border: none;
 	background-color: white;
-	
+
 }
 
 
-.item { 
-	margin-bottom: 25px; 
+.item {
+	margin-bottom: 25px;
 	color: white;
 }
 .w100 { width: 100%; }
@@ -172,16 +172,16 @@ input{
 }
 
 .row{
-	
+
 	margin-top: 20px;
-	
+
 }
 
 #intro-SoundStash{
-	
+
 	position:relative;
 
-	background-image: url("http://musicis.life/wp-content/uploads/2015/08/djs-hosting-a-party-music-hd-wallpaper-1920x1080-28082-750x400.jpg");
+	background-image: "images/djparty.jpg";
 	background-size: cover;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -202,7 +202,7 @@ input{
 	top:0;
 	position: fixed;
 	z-index: 1;
-	
+
 }
 
 .foot{
@@ -242,13 +242,13 @@ li{
 }
 
 
-.wrap{ 
+.wrap{
    	height: auto;
     /*margin: 0 auto -8px; /* footer height + space */
     min-height: 100%;
     padding: 0 0 80px; /* footer height + space */
     box-sizing: border-box;
-    overflow: auto;	
+    overflow: auto;
 }
 
 .paraG{
@@ -267,7 +267,7 @@ li{
 	margin-left: 80px;
 	color: #FFFFFF;
 	font-family: 'Lato';
-	
+
 
 }
 
@@ -304,33 +304,31 @@ li{
 		font-family: Lato;
 		font-size: 100%;
 		cursor: pointer;
-		
+
 	}
-	
+
 	div.nav-menu{
 		clear:both;
 		float: none;
 		display:none;
 	}
-	
+
 	div.nav-menu ul li{
 		float: none;
 		border-bottom: 2px solid #d5dce4;
 	}
-	
+
 	div.nav-menu ul li:last-child{
 		border-bottom: none;
-		
+
 	}
-	
+
 	div.nav-expanded{
 		display: block;
-		
-		
+
+
 	}
-	
+
 
 
 }
-
-
