@@ -1,0 +1,118 @@
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+	<head>
+		<title>SoundStash - About</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="About" />
+		
+		<!-- Links -->
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+			
+	</head>
+	<body>
+
+		<!-- Create Fixed Header Menu -->
+		<div class="header">
+			
+			<div class="container">
+				
+				<div class="logo">
+					<h1><a href="http://127.0.0.1:8080/EECS%20199/SoundStash.jsp" style="text-decoration: none; color: white;"><strong>SOUNDSTASH</strong></a></h1>
+				</div>
+				
+				<div class="menu-trigger"> <span style="font-size: 23px;">&#9776;</span></div>
+				
+				<div class="nav-menu">
+					<ul>
+						<li><a class="charts" href="http://127.0.0.1:8080/EECS%20199/SoundStash.jsp" >Home</a></li>
+						<li><a class="charts" href="http://127.0.0.1:8080/EECS%20199/AboutUs.jsp" >About</a></li>
+						<li><a class="charts" href="http://127.0.0.1:8080/EECS%20199/Charts.jsp" >Charts</a></li>
+					</ul>
+				</div>
+				
+				
+			
+			</div>
+			
+		</div>
+		<!-- End of Fixed Header Menu -->
+		
+		<!-- Content -->
+		<div class="wrap" style="margin-top: 120px;">
+			<!-- Create a table to display results if any. -->
+			<table align="center", width="95%">
+				<thead>
+					<tr>
+							<th style="text-align: center; color:white; font-size:30px; padding-top: 20px;">About</th>
+					</tr>
+				</thead>
+
+				<tbody>
+				
+					<tr>
+					
+						<td>
+							<div class="paraG">
+								
+									Music, as always, seems to attract the attention of many developers. 
+									Music lovers will try to get their hands on the best web applications 
+									to stream their favorite songs or search up information of their favorite 
+									artist. They also resort to looking up the lyrics of a song to singalong. 
+									However, pulling up different sites to achieve all this information of a 
+									track can be a drag. With SoundStash, not only will the user be able to 
+									pull up information on a track or artist, but they will also be able to 
+									pull up the lyrics to a selected song while also getting a music video all 
+									in one place. SoundStash is a music database that is able to provide 
+									information of a track, including artist, album, name, release date, label, 
+									lyrics and audio. It is designed to fully give the best music experience to 
+									any music lover.  
+								
+							</div>
+			
+						</td>
+						<td></td>
+						
+					</tr>
+				
+				</tbody>
+			</table>
+		
+		</div>
+		
+		<!-- Create Fixed foot Menu -->
+		<div class="foot">
+			<span style="color: white; font-family:Lato">&copy; 2016 Michael Andon All Rights Reserved.</span>
+			
+		</div>
+					
+		<!-- scripts -->
+		
+		<!-- YouTube -->
+		<script src="jquery-2.2.0.js"></script>
+		<script type="text/javascript" src="jsrender.js"></script>
+		
+				<!-- Toggle Menu -->
+		<script>
+			$(document).ready(function(){
+				$('.menu-trigger').click(function(){
+					$('.nav-menu').slideToggle(400, function(){
+						$(this).toggleClass("nav-expanded").css('display', '');
+					});
+				});
+			
+			});
+		</script>
+	
+	</body>
+	
+
+
+</html>
