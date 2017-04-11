@@ -194,6 +194,7 @@ input{
 	width:100%;
 	min-height:100%;
 	top:0;
+	padding: 100px;
 
 
 }
@@ -250,7 +251,7 @@ li{
 
 .wrap{
    	height: auto;
-    /*margin: 0; /* footer height + space */
+    margin-bottom: 20px; /* footer height + space */
     min-height: 100%;
     padding: 0 0 80px; /* footer height + space */
     box-sizing: border-box;
