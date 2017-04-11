@@ -187,14 +187,14 @@ input{
 
 	position:relative;
 	background-image: url("images/djparty.jpg");
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position:center;
 	background-repeat: no-repeat;
 	display: inline-block;
 	width:100%;
 	min-height:100%;
 	top:0;
-	padding: 300px 0px 300px 0px;
+	padding: 100px 0px 200px 0px;
 
 
 }
